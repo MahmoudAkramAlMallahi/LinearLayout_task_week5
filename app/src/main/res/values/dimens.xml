@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="multiples_four_2x">8dp</dimen>
+    <dimen name="multiples_four_4x">16dp</dimen>
+    <dimen name="multiples_four_3x">12dp</dimen>
+    <dimen name="hr_text_radius_100">100dp</dimen>
+    <dimen name="multiples_four_1x">4dp</dimen>
+    <dimen name="linear_margin_bottom">11dp</dimen>
+    <dimen name="size_image">93dp</dimen>
+    <dimen name="multiples_four_text_3x">12sp</dimen>
+    <dimen name="multiples_four_text_4x">16sp</dimen>
+    <dimen name="location_text_size">13sp</dimen>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/multiples_four_4x"
+        android:background="@drawable/card_shape">
+
+        <ImageView
+            android:layout_width="@dimen/size_image"
+            android:layout_height="@dimen/size_image"
+            android:layout_margin="@dimen/multiples_four_3x"
+            android:src="@drawable/image_person"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/multiples_four_3x"
+            android:layout_marginEnd="@dimen/multiples_four_2x"
+            android:layout_marginBottom="@dimen/linear_margin_bottom">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="@string/user_name"
+                    android:textSize="@dimen/multiples_four_text_4x"
+                    android:textColor="@color/black"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hr_text_shape"
+                    android:fontFamily="@font/dm_sans"
+                    android:paddingHorizontal="@dimen/multiples_four_2x"
+                    android:paddingVertical="@dimen/multiples_four_1x"
+                    android:text="@string/number_hr_text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/multiples_four_text_3x" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/multiples_four_2x">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/job_user_text"
+                    android:textSize="@dimen/multiples_four_text_3x"
+                    android:textColor="@color/engineer_text_color" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/nationality_user"
+                    android:textSize="@dimen/multiples_four_text_3x"
+                    android:textColor="@color/engineer_text_color"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/multiples_four_2x">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:drawablePadding="@dimen/multiples_four_1x"
+                    android:text="@string/location_user"
+                    android:textSize="@dimen/location_text_size"
+                    android:textColor="@color/location_text_color"
+                    app:drawableStartCompat="@drawable/icon" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/age_user"
+                    android:textSize="@dimen/multiples_four_text_3x"
+                    android:textColor="@color/age_text_color" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/multiples_four_2x">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="@string/range_reviews_user"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/multiples_four_text_3x" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/multiples_four_2x"
+                    android:drawablePadding="@dimen/multiples_four_1x"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/number_start_user"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/multiples_four_text_3x"
+                    app:drawableEndCompat="@drawable/baseline_star_rate_12" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

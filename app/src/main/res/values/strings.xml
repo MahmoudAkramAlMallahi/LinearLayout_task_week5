@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Linear Layout Task</string>
+    <string name="user_name">Ahmed hassan</string>
+    <string name="number_hr_text">3 hr</string>
+    <string name="job_user_text">Engineer</string>
+    <string name="nationality_user">Russian</string>
+    <string name="location_user">UK</string>
+    <string name="age_user">5 Days age</string>
+    <string name="range_reviews_user">(150 Reviews)</string>
+    <string name="number_start_user">4.5</string>
+</resources>
